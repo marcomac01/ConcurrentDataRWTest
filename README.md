@@ -1,6 +1,7 @@
 # Testing non thread-safe mods
 
 Test di scrittura e lettura su strutture dati non thread-safe
+![alt text](https://github.com/marcomac01/ConcurrentDataRWTest/blob/master/desk.png?raw=true)
 ## Per cominciare
 
 ### Dipendenze
