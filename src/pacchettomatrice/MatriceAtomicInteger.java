@@ -3,7 +3,7 @@ package pacchettomatrice;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class MatriceAtomicInteger extends Matrice{
-    private final AtomicIntegerArray[] matrice;
+    private AtomicIntegerArray[] matrice;
 
     public MatriceAtomicInteger(int righe, int colonne) {
         this.matrice = new AtomicIntegerArray[5];
