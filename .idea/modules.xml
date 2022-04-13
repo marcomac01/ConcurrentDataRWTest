@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AtomicIntegerMatrix.iml" filepath="$PROJECT_DIR$/AtomicIntegerMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConcurrentDataRWTest.iml" filepath="$PROJECT_DIR$/ConcurrentDataRWTest.iml" />
     </modules>
   </component>
 </project>
