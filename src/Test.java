@@ -4,7 +4,7 @@ import pacchettomatrice.*;
 public class Test {
 
     public static void main(String[] args) throws Exception {
-        int x = 10000;
+        int x = 100000;
         System.out.println("# Testiamo la versione non Thread-Safe con Arrray di interi");
         Matrice m = new MatriceArray(5,8);
         m.testaMatrice(x);
