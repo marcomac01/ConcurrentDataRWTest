@@ -4,12 +4,15 @@ import java.util.concurrent.Semaphore;
 
 public class MatriceArraySemaphore extends MatriceArray{
     private Semaphore sem;
+
     public MatriceArraySemaphore(int righe, int colonne) {
         super(righe, colonne);
     }
+
     public MatriceArraySemaphore(int[][] matrice) {
         super(matrice);
     }
+
     @Override
     public void testaMatrice(int x) {
         try {

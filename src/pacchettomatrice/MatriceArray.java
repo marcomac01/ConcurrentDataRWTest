@@ -8,6 +8,7 @@ public class MatriceArray extends Matrice{
     public MatriceArray(int righe, int colonne) {
         this.matrice = new int[righe][colonne];
     }
+
     public MatriceArray(int[][] matrice) {
         this.matrice = matrice;
     }
@@ -28,23 +29,13 @@ public class MatriceArray extends Matrice{
     }
 
     @Override
-    public void testaMatrice(int x) {
-        try {
-            DecRiga[] tr = new DecRiga[matrice.length];
-            IncColonna[] tc = new IncColonna[matrice[0].length];
-            for (int i = 0; i < tr.length; i++) {
-                tr[i] = new DecRiga(this, i, x);
-                tr[i].start();
-            }
-            for (int i = 0; i < tc.length; i++) {
-                tc[i] = new IncColonna(this, i, x);
-                tc[i].start();
-            }
-            for (DecRiga r : tr) r.join();
-            for (IncColonna c : tc) c.join();
-            this.stampaMatrice();
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+    public int getNRighe() {
+        return matrice.length;
     }
+
+    @Override
+    public int getNColonne() {
+        return matrice[0].length;
+    }
+
 }
